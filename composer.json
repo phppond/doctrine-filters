@@ -1,0 +1,30 @@
+{
+    "name": "phppond/doctrine-filters",
+    "description": "Filters & Conditions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick G. Lavrik",
+            "email": "nick.lavrik@gmail.com"
+        },
+        {
+            "name": "Creative WebMedia Pvt. Ltd",
+            "email": "office@creative-media.com.ua"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "phppond/doctrine-collections": "@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "psr-4": { "PhpPond\\": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
